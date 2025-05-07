@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UNO Cromático - Diseño Gráfico</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fdfdfd;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, #ff0000, #fffb00,#3cff00, #4400ff);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h1 {
+      color: #ffffff;
+      font-size: 450%;
+      margin-top: -1%;
+      margin-bottom: -1%;
+    }
+    h2 {
+      color: #ff2020;
+    }
+    h3 {
+      margin-top: 1rem;
+    }
+    .mode {
+      background-color: #f0f0f0;
+      padding: 1rem;
+      border-left: 6px solid #d10000;
+      margin: 1.5rem 0;
+      border-radius: 5px;
+    }
+    .color-box {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin: 0 5px;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+    }
+    .rojo { background-color: red; }
+    .verde { background-color: green; }
+    .amarillo { background-color: yellow; }
+    .azul { background-color: blue; }
+    ul {
+      padding-left: 1.2rem;
+    }
+    .cards-img {
+      display: block;
+      margin: 1rem auto;
+      max-width: 100%;
+    }
+    .rules-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    .rules-table th, .rules-table td {
+      border: 1px solid #ccc;
+      padding: 0.5rem;
+      text-align: left;
+    }
+    .rules-table th {
+      background-color: #eee;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #eee;
+      font-size: 0.9rem;
+    }
+  </style>
+  </head>
+  <body>
+    <header>
+      <h1>MODO ANALOGO</h1>
+    </header>
+</head>
+<body>
+  <div class="mode">
+    <p>Se activa con otra carta <strong>Reversa</strong> después del modo complementario. Solo se pueden jugar cartas del mismo color o colores análogos, de esta forma:</p>
+    <ul>
+      <li>🔴 Rojo → Amarillo <span class="color-box rojo"></span> ➝ <span class="color-box amarillo"></span></li>
+      <li>🟡 Amarillo → Verde <span class="color-box amarillo"></span> ➝ <span class="color-box verde"></span></li>
+      <li>🟢 Verde → Azul <span class="color-box verde"></span> ➝ <span class="color-box azul"></span></li>
+      <li>🔵 Azul → Rojo <span class="color-box azul"></span> ➝ <span class="color-box rojo"></span></li>
+    </ul>
+
+  <!-- Botón para volver -->
+  <a href="index.html" class="boton">Volver</a>
+  </div>
+
+</body>
+</html>
